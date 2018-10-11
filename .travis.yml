@@ -7,7 +7,7 @@ branches:
 before_script:
 - pip install -r requirements.txt
 - sudo apt-get update
-- sudo apt-get install -y spatialite-bin libspatialite3
-- locate libspatialite3
+- sudo apt-get install -y spatialite-bin libspatialite5
+- locate libspatialite5
 - locate mod_spatialite
 script: python build_cryptids_database.py
