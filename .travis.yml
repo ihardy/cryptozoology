@@ -8,6 +8,5 @@ before_script:
 - pip install -r requirements.txt
 - sudo apt-get update
 - sudo apt-get install -y spatialite-bin libspatialite5
-- locate libspatialite5
-- locate mod_spatialite
+- ls -lah /usr/lib/x86_64-linux-gnu/
 script: python build_cryptids_database.py
